@@ -86,7 +86,7 @@ body {
     align-self: center;
 }
 
-.datadyr{
+.dataDyr{
     width: auto;
     height: 250px;
 
@@ -107,6 +107,62 @@ body {
     grid-area: 5/3;
 }
 
+#start {
+    width: 10vh;
+    height: 5vh;
+    font-size: 3vh;
+    font-style: oblique;
+    background-color: palevioletred;
+    border: 5px;
+    border-radius: 60%;
+    border-color: rgb(44, 218, 131);
+    border-style: outset;
+    
+    justify-self: center;
+    align-self: center;
+}
+#food1 {
+    width: 10vh;
+    height: 5vh;
+    font-size: 3vh;
+    font-style: oblique;
+    background-color: palevioletred;
+    border: 5px;
+    border-radius: 60%;
+    border-color: rgb(44, 218, 131);
+    border-style: outset;
+    
+    justify-self: center;
+    align-self: center;
+}
+#sleep1 {
+    width: 10vh;
+    height: 5vh;
+    font-size: 3vh;
+    font-style: oblique;
+    background-color: palevioletred;
+    border: 5px;
+    border-radius: 60%;
+    border-color: rgb(44, 218, 131);
+    border-style: outset;
+    
+    justify-self: center;
+    align-self: center;
+}
+#health1 {
+    width: 10vh;
+    height: 5vh;
+    font-size: 3vh;
+    font-style: oblique;
+    background-color: palevioletred;
+    border: 5px;
+    border-radius: 60%;
+    border-color: rgb(44, 218, 131);
+    border-style: outset;
+    
+    justify-self: center;
+    align-self: center;
+}
 .datadyrBedroom{
     width: auto;
     height: 250px;
@@ -128,7 +184,11 @@ body {
     
 }
 
-
+.controller {
+    position: absolute;
+    left: 5vh;
+    top: 10vh;
+}
 
 #myProgressHunger {
     width: 100%;
