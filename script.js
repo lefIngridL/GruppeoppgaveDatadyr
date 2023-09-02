@@ -50,7 +50,7 @@ function updateViewLivingroom() {
     
     html = /*html*/ `    
     <div class="grid">
-    <input type="button" class="btns" value="Start" onclick="trykk(this); statusbars(); /*hungerBar(); healthBar();  sleepBar(); hungerBar2(); healthBar2();  sleepBar2();">
+    <input type="button" class="btns" value="Start" onclick="trykk(this); statusbars()">
             <input id="doggy" class="dataDyr" type="image" src="${dogMood}" alt="">
             <div id="myProgressHunger">
                 <div id="hungerBar">100%</div>
@@ -73,7 +73,7 @@ function updateViewLivingroom() {
             
             <div class="arrowRight" onclick="updateViewBathroom()">⇐</div>
             <div class="arrowLeft" onclick="updateViewBedroom()">⇒</div>
-            <input type="button" id="health" value="kos" class="btns health" onclick="trykk(this); ">
+            <input type="button" id="health" value="kos" class="btns health" onclick="trykk(this)">
             </div>
             `;
     room.innerHTML = html;
